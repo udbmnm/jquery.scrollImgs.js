@@ -24,9 +24,11 @@ overflow:hidden;width:200px;height:50px;
 
 #####调用方法如下
    	$('#scroll').scrollImgs({
- 	    	prevBtn : $('#prevBtn'),
- 	    	nextBtn : $('#nextBtn')
-  			event : 'click'
+ 	    	prevBtn : $('#prevBtn'), //向前滚动按钮
+ 	    	nextBtn : $('#nextBtn') //向后滚动按钮
+  			event : 'click' //触发事件方式
+  			direction : 'left' //滚动方向left左右滚动,top上下滚动 默认left
+  			speed:'slow'	//滚动速度fast slow 毫秒数
  	    });
  	    
  
