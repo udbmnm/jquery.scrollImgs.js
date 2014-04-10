@@ -20,7 +20,7 @@ jquery图片无缝滚动插件
  		</span>		
 
 滚动区域div必须写上overflow:hidden
-#scroll {overflow:hidden;width:200px;height:50px;}
+overflow:hidden;width:200px;height:50px;
 
 #####调用方法如下
    	$('#scroll').scrollImgs({
