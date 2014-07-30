@@ -19,10 +19,10 @@ jquery图片无缝滚动插件
  			<i class="icon-caret-down" ></i>
  		</span>		
 
-滚动区域div必须写上overflow:hidden
-overflow:hidden;width:200px;height:50px;
+滚动区域div必须写上overflow:hidden;width:200px;height:50px;宽高自定义
 
 #####调用方法如下
+
    	$('#scroll').scrollImgs({
  	    	prevBtn : $('#prevBtn'), //向前滚动按钮
  	    	nextBtn : $('#nextBtn') //向后滚动按钮
