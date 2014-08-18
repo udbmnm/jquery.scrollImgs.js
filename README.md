@@ -4,10 +4,10 @@ jquery.scrollImgs.js
 jquery图片无缝滚动插件
 
 
-必须保持如下HTML结构
+HTML结构必须保持正确的ID，结构可以按自己需要修改
 ==================
    	<div id="scroll">
-   		<ul>
+   		<ul id="scrollCon">
     			<li></li>
     			<li></li>
    		</ul>
@@ -19,7 +19,7 @@ jquery图片无缝滚动插件
  			<i class="icon-caret-down" ></i>
  		</span>		
 
-滚动区域div必须写上overflow:hidden;width:200px;height:50px;宽高自定义
+滚动区域必须可以改变top，left等值可以滚动，可以写position:relative,或者绝对定位，宽高自定义
 
 #####调用方法如下
 
